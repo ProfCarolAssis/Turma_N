@@ -1,5 +1,6 @@
 @import url("styles/header.css");
 @import url("styles/banner.css");
+@import url("styles/topicos.css");
 :root{
     --cor-de-fundo:#EBECEE; 
     --branco: #FFFF;
@@ -14,31 +15,5 @@ body{
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
-}
-
-.banner{
-    background: var(--azul-degrade);
-    color: var(--branco);
-    text-align: center;
-    padding: 2.5em 2em;
-}
-
-.banner__titulo{
-    font-size: 16px;
-    font-weight: 700;
-}
-
-.banner__text{
-    font-weight: 500;
-    margin: 1em 0;
-}
-
-.banner__pesquisa{
-    background-color: transparent;
-    border: 1px solid var(--branco);
-    color: var(--branco);
-    border-radius: 24px;
-    padding: 1em;
-    width: 100%;
 }
 
